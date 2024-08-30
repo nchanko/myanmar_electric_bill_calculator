@@ -15,6 +15,7 @@ def main():
     language = st.sidebar.selectbox("Choose Language", options=["Burmese", "English"])
     t = translations[language]
 
+
     # Display title
     st.markdown(f"<h1 style='text-align: center; color: #000080;'>{t['title']}</h1>", unsafe_allow_html=True)
 
@@ -22,7 +23,7 @@ def main():
     
     with col1:
         # Dropdown to select Household or Industrial
-        use_type = st.selectbox("Select Usage Type", options=["Household", "Industrial"])
+        use_type = st.selectbox(t["select_usage_type"], options=["Household", "Industrial"])
     with col2:
         # Input for units used
         units = st.number_input(t["units_input"], min_value=0, step=1)
@@ -88,6 +89,12 @@ def main():
                 title_font=dict(size=24, color='#333333')
             )
             st.plotly_chart(fig, use_container_width=True)
+
+    st.markdown("---")
+    st.markdown(
+        "<p style='color: #7F00FF; text-align: center;'>🔌 Concept by NLM, Built by NCKK</p>",
+        unsafe_allow_html=True
+    )
 
 if __name__ == "__main__":
     main()
