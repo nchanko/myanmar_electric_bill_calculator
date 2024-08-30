@@ -99,7 +99,7 @@ def main():
 
     st.markdown("---")
     st.markdown(
-        "<p style='color: #7F00FF; text-align: center;'>🔌 Concept by NLM, Built by NCKK</p>",
+        "<p style='color: #7F00FF; text-align: center;'>💡 Concept by NLM,  🛠️ Built by NCKK</p>",
         unsafe_allow_html=True
     )
 
