@@ -1,6 +1,6 @@
 {
     "English": {
-        "title": "Myanmar Electric Bill Calculator ⚡💸",
+        "title": "MeterKha : Myanmar Electric Bill Calculator ⚡💸",
         "select_usage_type":"Select Usage Type",
         "units_input": "Enter the number of units used:",
         "period_1": "Before 2019",
@@ -13,7 +13,7 @@
         "period":"Period"
     },
     "Burmese": {
-        "title": "မြန်မာ လျှပ်စစ် မီတာခ တွက်စက် ⚡💸",
+        "title": "မီတာခ : မြန်မာ လျှပ်စစ် မီတာခ တွက်စက် ⚡💸",
         "select_usage_type":"သုံးစွဲမှု အမျိုးအစား",
         "units_input": "သုံးစွဲထားသောယူနစ်အရေအတွက်ထည့်ပါ:",
         "period_1": "2019 မတိုင်မီ",
