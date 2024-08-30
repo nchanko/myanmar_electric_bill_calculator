@@ -9,7 +9,8 @@
         "overall_increase": "Overall Increase",
         "cost_breakdown_title": "Cost Breakdown",
         "comparison_chart_title": "Price Comparison Across Periods",
-        "cost_yaxis_title": "Cost (MMK)"
+        "cost_yaxis_title": "Cost (MMK)",
+        "period":"Period"
     },
     "Burmese": {
         "title": "မြန်မာ လျှပ်စစ် မီတာခ တွက်စက် ⚡💸",
@@ -21,6 +22,7 @@
         "overall_increase": "စုစုပေါင်း တိုးခြင်း",
         "cost_breakdown_title": "ကုန်ကျစရိတ် ခွဲခြမ်းခြင်း",
         "comparison_chart_title": "ကာလအလိုက် ကုန်ကျငွေ နှိုင်းယှဉ်မှု",
-        "cost_yaxis_title": "ကုန်ကျငွေ"
+        "cost_yaxis_title": "ကုန်ကျငွေ",
+        "period":"ကာလ"
     }
 }

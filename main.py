@@ -56,14 +56,13 @@ def main():
         # Display percentage changes
         cols = st.columns(3)
         with cols[0]:
-            st.markdown(f"<h6 style='font-size:12px;'>{t['period_1']} to {t['period_2']}: <strong>{percent_change_1:.2f}%</strong></p>", unsafe_allow_html=True)
+            st.markdown(f"<h6 style='font-size:13px;'>{t['period_1']} to {t['period_2']}: <strong>{percent_change_1:.2f}%</strong></p>", unsafe_allow_html=True)
         with cols[1]:
-            st.markdown(f"<h6 style='font-size:12px;'>{t['period_2']} to {t['period_3']}: <strong>{percent_change_2:.2f}%</strong></p>", unsafe_allow_html=True)
+            st.markdown(f"<h6 style='font-size:13px;'>{t['period_2']} to {t['period_3']}: <strong>{percent_change_2:.2f}%</strong></p>", unsafe_allow_html=True)
         with cols[2]:
-            st.markdown(f"<h6 style='font-size:12px;'>{t['overall_increase']}: <strong>{overall_change:.2f}%</strong></p>", unsafe_allow_html=True)
+            st.markdown(f"<h6 style='font-size:13px;'>{t['overall_increase']}: <strong>{overall_change:.2f}%</strong></p>", unsafe_allow_html=True)
 
     col1, col2 = st.columns([1, 3])
-
     with col1:
         # Cost breakdown explanation
         if costs_and_breakdowns:
@@ -85,8 +84,10 @@ def main():
                 yaxis_title=t["cost_yaxis_title"],
                 yaxis=dict(tickformat=",.0f"),
                 template="simple_white",
-                title_x=0.5,
-                title_font=dict(size=24, color='#333333')
+                title_x=0.1,
+                title_font=dict(size=24, color='#000080'),
+                width=800,  # Set the width of the chart
+                height=350  # Set the height of the chart
             )
             st.plotly_chart(fig, use_container_width=True)
 
