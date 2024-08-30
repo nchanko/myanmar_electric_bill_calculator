@@ -16,9 +16,15 @@ def main():
     t = translations[language]
 
 
-    # Display title
-    st.markdown(f"<h1 style='text-align: center; color: #000080;'>{t['title']}</h1>", unsafe_allow_html=True)
+    col1, col2 = st.columns([1, 5])
 
+    with col2:
+        # Display title
+        st.markdown(f"<h1 style='color: #000080;'>{t['title']}</h1>", unsafe_allow_html=True)
+
+    with col1:
+        # Display QR code
+        st.image("qrcode.png", width=100)
     col1,col2 = st.columns([1,4])
     
     with col1:
