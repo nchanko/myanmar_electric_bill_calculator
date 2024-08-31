@@ -10,10 +10,10 @@
         "cost_breakdown_title": "Cost Breakdown",
         "comparison_chart_title": "Price Comparison Across Periods",
         "cost_yaxis_title": "Cost (MMK)",
-        "period":"Period"
+        "period_xaxis_title": "Periods"
     },
     "Burmese": {
-        "title": "မီတာခ : မြန်မာ လျှပ်စစ် မီတာခ တွက်စက် ⚡💸",
+        "title": "မြန်မာ လျှပ်စစ် မီတာခ တွက်စက် ⚡💸",
         "select_usage_type":"သုံးစွဲမှု အမျိုးအစား",
         "units_input": "သုံးစွဲထားသောယူနစ်အရေအတွက်ထည့်ပါ:",
         "period_1": "2019 မတိုင်မီ",
@@ -23,6 +23,6 @@
         "cost_breakdown_title": "ကုန်ကျငွေ ခွဲခြမ်းခြင်း",
         "comparison_chart_title": "ကာလအလိုက် ကုန်ကျငွေ နှိုင်းယှဉ်မှု",
         "cost_yaxis_title": "ကုန်ကျငွေ",
-        "period":"ကာလ"
+        "period_xaxis_title":"ကာလ"
     }
 }
