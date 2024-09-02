@@ -55,18 +55,13 @@ def main():
                 st.metric(period_label, f"{format_number(cost)} MMK")
 
         # Calculate percentage changes
-        percent_change_1 = calculate_percentage_change(costs[0], costs[1])
-        percent_change_2 = calculate_percentage_change(costs[1], costs[2])
-        overall_change = calculate_percentage_change(costs[0], costs[2])
+        percent_change = calculate_percentage_change(costs[0], costs[1])
 
         # Display percentage changes
         cols = st.columns(3)
         with cols[0]:
-            st.markdown(f"<h6 style='font-size:13px;'>{t['period_1']} to {t['period_2']}: <strong>{percent_change_1:.2f}%</strong></p>", unsafe_allow_html=True)
-        with cols[1]:
-            st.markdown(f"<h6 style='font-size:13px;'>{t['period_2']} to {t['period_3']}: <strong>{percent_change_2:.2f}%</strong></p>", unsafe_allow_html=True)
-        with cols[2]:
-            st.markdown(f"<h6 style='font-size:13px;'>{t['overall_increase']}: <strong>{overall_change:.2f}%</strong></p>", unsafe_allow_html=True)
+            st.markdown(f"<h6 style='font-size:13px;'>{t['period_1']} to {t['period_2']}: <strong>{percent_change:.2f}%</strong></p>", unsafe_allow_html=True)
+
 
     col1, col2 = st.columns([1, 3])
     with col1:
