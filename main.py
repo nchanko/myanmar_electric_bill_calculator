@@ -57,7 +57,6 @@ def main():
         # Calculate percentage changes
         percent_change_1 = calculate_percentage_change(costs[0], costs[1])
         percent_change_2 = calculate_percentage_change(costs[1], costs[2])
-        overall_change = calculate_percentage_change(costs[0], costs[2])
 
         # Display percentage changes
         cols = st.columns(3)
