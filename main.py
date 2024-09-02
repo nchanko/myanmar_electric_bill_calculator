@@ -61,8 +61,6 @@ def main():
 
         # Display percentage changes
         cols = st.columns(3)
-        with cols[0]:
-            st.markdown(f"<h6 style='font-size:13px;'>{t['period_1']} to {t['period_2']}: <strong>{percent_change_1:.2f}%</strong></p>", unsafe_allow_html=True)
         with cols[1]:
             st.markdown(f"<h6 style='font-size:13px;'>{t['period_2']} to {t['period_3']}: <strong>{percent_change_2:.2f}%</strong></p>", unsafe_allow_html=True)
         with cols[2]:
