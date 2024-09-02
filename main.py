@@ -35,7 +35,7 @@ def main():
         units = st.number_input(t["units_input"], min_value=0, step=1)
 
     # Initialize variables
-    period_keys = ["period_1", "period_2", "period_3"]
+    period_keys = ["period_2", "period_3"]
     costs_and_breakdowns = []
     costs = []
 
