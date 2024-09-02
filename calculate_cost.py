@@ -6,7 +6,7 @@ def format_number(number):
     if number >= 1_000_000:
         return f"{number/1_000_000:.4f} million"
     else:
-        return f"{number}"
+        return f"{number:,}"
 # Function to calculate cost based on consumption units and period
 def calculate_househhold_cost(units, period_key):
     breakdown = []
