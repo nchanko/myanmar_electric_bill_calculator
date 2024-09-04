@@ -52,7 +52,7 @@ def main():
         cols = st.columns(4)
         for i, (period_key, cost) in enumerate(zip(period_keys, costs)):
             period_label = t[period_key]
-            with cols[i]:
+            with cols[i+2]:
                 st.metric(period_label, f"{format_number(cost)} MMK")
 
         # Calculate percentage changes
