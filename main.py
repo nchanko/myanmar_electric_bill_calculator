@@ -48,7 +48,7 @@ def main():
         costs = [item[0] for item in costs_and_breakdowns]
 
         # Display costs in cards with minimalist styling
-        cols = st.columns(1)
+        cols = st.columns(2)
         for i, (period_key, cost) in enumerate(zip(period_keys, costs)):
             period_label = t[period_key]
             with cols[i]:
