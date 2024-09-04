@@ -59,7 +59,7 @@ def main():
 
         # Display percentage changes
         cols = st.columns(3)
-        with cols[0]:
+        with cols[2]:
             st.markdown(f"<h6 style='font-size:13px;'>{t['period_1']} to {t['period_2']}: <strong>{percent_change:.2f}%</strong></p>", unsafe_allow_html=True)
 
 
