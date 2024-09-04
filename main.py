@@ -35,7 +35,7 @@ def main():
         units = st.number_input(t["units_input"], min_value=0, step=1)
 
     # Initialize variables
-    period_keys = ["period_1", "period_2", "period_3"]
+    period_keys = ["period_2", "period_3"]
     costs_and_breakdowns = []
     costs = []
 
@@ -48,7 +48,7 @@ def main():
         costs = [item[0] for item in costs_and_breakdowns]
 
         # Display costs in cards with minimalist styling
-        cols = st.columns(3)
+        cols = st.columns(2)
         for i, (period_key, cost) in enumerate(zip(period_keys, costs)):
             period_label = t[period_key]
             with cols[i]:
