@@ -95,6 +95,19 @@ def main():
 
     st.markdown("---")
     st.markdown(
+        """
+        ## Enjoying this app?
+        If you find this app helpful, consider buying me a coffee! ☕️
+
+        <a href="https://www.buymeacoffee.com/nyeinchankoko" target="_blank">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+                 alt="Buy Me A Coffee" 
+                 style="height: 20px !important; width: 20px !important;">
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+    st.markdown(
         "<p style='color: #7F00FF; text-align: center;'>💡 Concept by NLM,  🛠️ Built by NCKK</p>",
         unsafe_allow_html=True
     )
